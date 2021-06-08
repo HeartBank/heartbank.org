@@ -1,3 +1,7 @@
+html {
+    font-size: medium;
+}
+
 body {
     background: linear-gradient(white, lightseagreen);
     display: flex;

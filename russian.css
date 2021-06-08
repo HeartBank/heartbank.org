@@ -1,6 +1,6 @@
 body {
     margin:0;
-    background: lightskyblue;
+    background: linear-gradient(white, lightseagreen);
     display: flex;
     flex-direction:
     justify-content:space-around;
