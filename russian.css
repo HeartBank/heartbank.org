@@ -2,7 +2,7 @@ body {
     margin:0;
     background: linear-gradient(white, lightseagreen);
     display: flex;
-    flex-direction:
+    flex-direction:column;
     justify-content:space-around;
     align-items: center;
 }
