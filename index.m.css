@@ -29,7 +29,8 @@ header section {
 }
 
 main {
-    height: 70vh;
+    height: 100%;
+    padding-bottom: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
