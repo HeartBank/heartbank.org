@@ -1,4 +1,5 @@
 html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: medium;
 }
 
@@ -36,7 +37,7 @@ header section section {
 }
 
 main {
-    height: 75vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
