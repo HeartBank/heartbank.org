@@ -13,4 +13,4 @@ import "./components/sw-footer/element.mjs";
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', 'G-N5YQNCN990');
+gtag('config', 'G-R65CVFT5S1');

@@ -5,7 +5,7 @@ template.innerHTML = `
     <header>
         <section>
             <a href="/"><img src="heartbank.png"></a>
-            <a href="/"><h1>HeartBank<sup>®</sup></h1></a>
+            <a href="/"><h1>HeartBank<sup>®</sup> Foundation</h1></a>
         </section>
         <input id="menu-toggle" type="checkbox">
         <label class='menu-button-container' for="menu-toggle">
@@ -14,127 +14,48 @@ template.innerHTML = `
         <nav>
             <ul>
                 <li>
-                    <h3>Frontend Course</h3>
+                    <h3>Kiitos</h3>
                     <div>
-                        <a href="#frontend-cohort"><button>Join: Remote Cohort Program</button></a>
-                        <h4>Learn</h4>
+                        <a href="#backend-cohort"><button>Kindness World Map</button></a>
+                        <h4>Supra & Infra Blockchains</h4>
                         <menu>
-                            <li><a>Watch Videos on Udemy</a></li>
-                            <li><a>Read Textbook on Medium</a></li>
-                            <li><a href="#frontend-quiz">Take Quizzes to Check Understanding</a></li>
+                            <li><a>Non Zero Sum</a></li>
+                            <li><a>Enlightened Intelligence</a></li>
                         </menu>
-                        <h4>Practice</h4>
+                        <h4>Earth</h4>
                         <menu>
-                            <li><a href="#frontend-podcast">Podcast: Motivation & Coding Music</a></li>
-                            <li><a href="#frontend-code">Interactive Coding Exercises</a></li>
-                            <li><a>Remote Pair Programming on Discord</a></li>
-                            <li><a>Students' Solo Projects on Codepen</a></li>
-                        </menu>
-                        <h4>Review</h4>
-                        <menu>
-                            <li><a>Live Demo: Music Apps</a></li>
-                            <li><a>Syntax Flashcards</a></li>
-                            <li><a>Students' Writings on Medium</a></li>
-                            <li><a>Mock Interviews on YouTube</a></li>
-                        </menu>
-                        <h4>Bonus: Advanced Lessons</h4>
-                        <menu>
-                            <li><a>React and Redux</a></li>
-                            <li><a>Web Audio Production</a></li>
+                            <li><a>Dear Kiitos</a></li>
+                            <li><a>Kitti</a></li>
                         </menu>
                     </div>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <h3>Backend Course</h3>
+                    <h3>Me</h3>
                     <div>
-                        <a href="#backend-cohort"><button>Join: Remote Cohort Program</button></a>
-                        <h4>Learn</h4>
+                        <a href="#backend-cohort"><button>HeartBank.Me</button></a>
+                        <h4>Wallet</h4>
                         <menu>
                             <li><a>Watch Videos on Udemy</a></li>
                             <li><a>Read Textbook on Medium</a></li>
                             <li><a href="#backend-quiz">Take Quizzes to Check Understanding</a></li>
                         </menu>
-                        <h4>Practice</h4>
+                        <h4>Personal Identification</h4>
                         <menu>
                             <li><a href="#backend-podcast">Podcast: Motivation & Coding Music</a></li>
                             <li><a href="#backend-code">Interactive Coding Exercises</a></li>
                             <li><a>Remote Pair Programming on Discord</a></li>
                             <li><a>Students' Solo Projects on Replit</a></li>
                         </menu>
-                        <h4>Review</h4>
-                        <menu>
-                            <li><a>Live Demo: Music Apps</a></li>
-                            <li><a>Syntax Flashcards</a></li>
-                            <li><a>Students' Writings on Medium</a></li>
-                            <li><a>Mock Interviews on YouTube</a></li>
-                        </menu>
-                        <h4>Bonus: Advanced Lessons</h4>
-                        <menu>
-                            <li><a>Quantum Physics & Computing</a></li>
-                            <li><a>Kiitos Programming Language</a></li>
-                        </menu>
                     </div>
                 </li>
             </ul>
             <ul>
                 <li>
-                    <h3>iOS Course</h3>
+                    <h3>Exchange</h3>
                     <div>
-                        <a href="#ios-cohort"><button>Join: Remote Cohort Program</button></a>
-                        <h4>Learn</h4>
-                        <menu>
-                            <li><a>Watch Videos on Udemy</a></li>
-                            <li><a>Read Textbook on Medium</a></li>
-                            <li><a href="#ios-quiz">Take Quizzes to Check Understanding</a></li>
-                        </menu>
-                        <h4>Practice</h4>
-                        <menu>
-                            <li><a href="#ios-podcast">Podcast: Motivation & Coding Music</a></li>
-                            <li><a href="#ios-code">Interactive Coding Exercises</a></li>
-                            <li><a>Remote Pair Programming on Discord</a></li>
-                            <li><a>Students' Solo Projects on GitHub</a></li>
-                        </menu>
-                        <h4>Review</h4>
-                        <menu>
-                            <li><a>Live Demo: Music Apps</a></li>
-                            <li><a>Syntax Flashcards</a></li>
-                            <li><a>Students' Writings on Medium</a></li>
-                            <li><a>Mock Interviews on YouTube</a></li>
-                        </menu>
-                        <h4>Bonus: Advanced Lessons</h4>
-                        <menu>
-                            <li><a>3D Animations</a></li>
-                            <li><a>Deep Learning</a></li>
-                        </menu>
-                    </div>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <h3>Graduation</h3>
-                    <div>
-                        <button>Refund: Committment Deposits</button>
-                        <h4>Awards</h4>
-                        <menu>
-                            <li><a>Certificates of Completion</a></li>
-                            <li><a>Graduation Diploma</a></li>
-                        </menu>
-                        <h4>Apply</h4>
-                        <menu>
-                            <li><a>Mock Technical Interviews</a></li>
-                            <li><a>Work Bounties at THonly™</a></li>
-                            <li><a>Admission to Startup Incubator</a></li>
-                        </menu>
-                    </div>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <h3>Coupons</h3>
-                    <div>
-                        <a href="#coupon"><button>Apply for Discounts</button></a>
+                        <a href="#coupon"><button>HeartBank.Exchange</button></a>
                         <h4>Inclusion & Diversity</h4>
                         <menu>
                             <li><a>Women & Minorities</a></li>
@@ -146,6 +67,92 @@ template.innerHTML = `
                             <li><a>Cambodia</a></li>
                             <li><a>Ukraine</a></li>
                             <li><a>United States</a></li>
+                        </menu>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h3>Net</h3>
+                    <div>
+                        <a href="#ios-cohort"><button>HeartBank.Net</button></a>
+                        <h4>Explorer</h4>
+                        <menu>
+                            <li><a>Watch Videos on Udemy</a></li>
+                            <li><a>Read Textbook on Medium</a></li>
+                            <li><a href="#ios-quiz">Take Quizzes to Check Understanding</a></li>
+                        </menu>
+                        <h4>Supra Blockchain</h4>
+                        <menu>
+                            <li><a href="#ios-podcast">Podcast: Motivation & Coding Music</a></li>
+                            <li><a href="#ios-code">Interactive Coding Exercises</a></li>
+                            <li><a>Remote Pair Programming on Discord</a></li>
+                            <li><a>Students' Solo Projects on GitHub</a></li>
+                        </menu>
+                        <h4>Infra Blockchains</h4>
+                        <menu>
+                            <li><a>Live Demo: Music Apps</a></li>
+                            <li><a>Syntax Flashcards</a></li>
+                            <li><a>Students' Writings on Medium</a></li>
+                            <li><a>Mock Interviews on YouTube</a></li>
+                        </menu>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h3>Domains</h3>
+                    <div>
+                        <a href="#coupon"><button>HeartBank.Domains</button></a>
+                        <h4>Browser</h4>
+                        <menu>
+                            <li><a>Women & Minorities</a></li>
+                            <li><a>Ukrainian Refugees</a></li>
+                            <li><a>Cambodian Genocide</a></li>
+                        </menu>
+                        <h4>DNS</h4>
+                        <menu>
+                            <li><a>Cambodia</a></li>
+                            <li><a>Ukraine</a></li>
+                            <li><a>United States</a></li>
+                        </menu>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h3>IO</h3>
+                    <div>
+                        <button>HeartBank.IO</button>
+                        <h4>333™</h4>
+                        <menu>
+                            <li><a>Hard Wallet</a></li>
+                            <li><a>Battery</a></li>
+                        </menu>
+                        <h4>Mining</h4>
+                        <menu>
+                            <li><a>Quantum Computers</a></li>
+                            <li><a>Kiitos Programming Language</a></li>
+                        </menu>
+                    </div>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h3>Cloud</h3>
+                    <div>
+                        <a href="#coupon"><button>HeartBank.Cloud</button></a>
+                        <h4>Inclusion & Diversity</h4>
+                        <menu>
+                            <li><a>Women & Minorities</a></li>
+                            <li><a>Ukrainian Refugees</a></li>
+                            <li><a>Cambodian Genocide</a></li>
+                        </menu>
+                        <h4>Servers</h4>
+                        <menu>
+                            <li><a>United States</a></li>
+                            <li><a>Cambodia</a></li>
+                            <li><a>Ukraine</a></li>
                         </menu>
                     </div>
                 </li>
