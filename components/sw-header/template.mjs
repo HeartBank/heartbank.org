@@ -16,16 +16,16 @@ template.innerHTML = `
                 <li>
                     <h3>Kiitos</h3>
                     <div>
-                        <a href="#backend-cohort"><button>Kindness World Map</button></a>
+                        <a href="#backend-cohort"><button>Kiitos.Earth</button></a>
                         <h4>Supra & Infra Blockchains</h4>
                         <menu>
                             <li><a>Non Zero Sum</a></li>
-                            <li><a>Enlightened Intelligence</a></li>
+                            <li><a>Decentralized Money</a></li>
                         </menu>
-                        <h4>Earth</h4>
+                        <h4>Enlightened Intelligence</h4>
                         <menu>
-                            <li><a>Dear Kiitos</a></li>
-                            <li><a>Kitti</a></li>
+                            <li><a>General Intelligence</a></li>
+                            <li><a>Aritifical Intelligence</a></li>
                         </menu>
                     </div>
                 </li>
