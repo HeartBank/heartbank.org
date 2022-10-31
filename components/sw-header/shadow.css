@@ -186,6 +186,11 @@ button:hover {
 }
 
 @media (max-width: 480px) {
+	h1 {
+		font-size: 1.5em;
+		margin-left: 15px;
+	}
+
 	aside {
 		display: none;
 	}
@@ -197,6 +202,7 @@ button:hover {
 
 	h3 {
 		color: white;
+		margin: 0;
 	}
 
 	div {
@@ -215,7 +221,7 @@ button:hover {
 	#menu-toggle ~ nav {
 		display: none;
 		flex-direction: column;
-		justify-content: center;
+		justify-content: space-around;
 		align-items: flex-start;
 
 		position: absolute;
@@ -225,6 +231,7 @@ button:hover {
 
 		box-sizing: border-box;
 		width: 100%;
+		min-height: 70%;
 		padding-left: 30px;
 		padding-bottom: 25px;
 		background-color: var(--theme-color-1);

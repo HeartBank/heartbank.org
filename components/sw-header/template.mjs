@@ -16,8 +16,8 @@ template.innerHTML = `
                 <li>
                     <h3>Kiitos</h3>
                     <div>
-                        <a href="#backend-cohort"><button>Kiitos.Earth</button></a>
-                        <h4>Supra & Infra Blockchains</h4>
+                        <a href="#Kiitos.Earth"><button>Kiitos.Earth</button></a>
+                        <!--<h4>Supra & Infra Blockchains</h4>
                         <menu>
                             <li><a>Non Zero Sum</a></li>
                             <li><a>Decentralized Money</a></li>
@@ -26,7 +26,7 @@ template.innerHTML = `
                         <menu>
                             <li><a>General Intelligence</a></li>
                             <li><a>Aritifical Intelligence</a></li>
-                        </menu>
+                        </menu>-->
                     </div>
                 </li>
             </ul>
@@ -34,8 +34,8 @@ template.innerHTML = `
                 <li>
                     <h3>Me</h3>
                     <div>
-                        <a href="#backend-cohort"><button>HeartBank.Me</button></a>
-                        <h4>Wallet</h4>
+                        <a href="#HeartBank.Me"><button>HeartBank.Me</button></a>
+                        <!--<h4>Wallet</h4>
                         <menu>
                             <li><a>Watch Videos on Udemy</a></li>
                             <li><a>Read Textbook on Medium</a></li>
@@ -47,7 +47,7 @@ template.innerHTML = `
                             <li><a href="#backend-code">Interactive Coding Exercises</a></li>
                             <li><a>Remote Pair Programming on Discord</a></li>
                             <li><a>Students' Solo Projects on Replit</a></li>
-                        </menu>
+                        </menu>-->
                     </div>
                 </li>
             </ul>
@@ -55,8 +55,8 @@ template.innerHTML = `
                 <li>
                     <h3>Exchange</h3>
                     <div>
-                        <a href="#coupon"><button>HeartBank.Exchange</button></a>
-                        <h4>Inclusion & Diversity</h4>
+                        <a href="#HeartBank.Exchange"><button>HeartBank.Exchange</button></a>
+                        <!--<h4>Inclusion & Diversity</h4>
                         <menu>
                             <li><a>Women & Minorities</a></li>
                             <li><a>Ukrainian Refugees</a></li>
@@ -67,7 +67,7 @@ template.innerHTML = `
                             <li><a>Cambodia</a></li>
                             <li><a>Ukraine</a></li>
                             <li><a>United States</a></li>
-                        </menu>
+                        </menu>-->
                     </div>
                 </li>
             </ul>
@@ -75,8 +75,8 @@ template.innerHTML = `
                 <li>
                     <h3>Net</h3>
                     <div>
-                        <a href="#ios-cohort"><button>HeartBank.Net</button></a>
-                        <h4>Explorer</h4>
+                        <a href="#HeartBank.Net"><button>HeartBank.Net</button></a>
+                        <!--<h4>Explorer</h4>
                         <menu>
                             <li><a>Watch Videos on Udemy</a></li>
                             <li><a>Read Textbook on Medium</a></li>
@@ -95,7 +95,7 @@ template.innerHTML = `
                             <li><a>Syntax Flashcards</a></li>
                             <li><a>Students' Writings on Medium</a></li>
                             <li><a>Mock Interviews on YouTube</a></li>
-                        </menu>
+                        </menu>-->
                     </div>
                 </li>
             </ul>
@@ -103,8 +103,8 @@ template.innerHTML = `
                 <li>
                     <h3>Domains</h3>
                     <div>
-                        <a href="#coupon"><button>HeartBank.Domains</button></a>
-                        <h4>Browser</h4>
+                        <a href="#HeartBank.Domains"><button>HeartBank.Domains</button></a>
+                        <!--<h4>Browser</h4>
                         <menu>
                             <li><a>Women & Minorities</a></li>
                             <li><a>Ukrainian Refugees</a></li>
@@ -115,7 +115,7 @@ template.innerHTML = `
                             <li><a>Cambodia</a></li>
                             <li><a>Ukraine</a></li>
                             <li><a>United States</a></li>
-                        </menu>
+                        </menu>-->
                     </div>
                 </li>
             </ul>
@@ -123,8 +123,8 @@ template.innerHTML = `
                 <li>
                     <h3>IO</h3>
                     <div>
-                        <button>HeartBank.IO</button>
-                        <h4>333™</h4>
+                        <a href="#HeartBank.IO"><button>HeartBank.IO</button></a>
+                        <!--<h4>333™</h4>
                         <menu>
                             <li><a>Hard Wallet</a></li>
                             <li><a>Battery</a></li>
@@ -133,7 +133,7 @@ template.innerHTML = `
                         <menu>
                             <li><a>Quantum Computers</a></li>
                             <li><a>Kiitos Programming Language</a></li>
-                        </menu>
+                        </menu>-->
                     </div>
                 </li>
             </ul>
@@ -141,8 +141,8 @@ template.innerHTML = `
                 <li>
                     <h3>Cloud</h3>
                     <div>
-                        <a href="#coupon"><button>HeartBank.Cloud</button></a>
-                        <h4>Inclusion & Diversity</h4>
+                        <a href="#HeartBank.Cloud"><button>HeartBank.Cloud</button></a>
+                        <!--<h4>Inclusion & Diversity</h4>
                         <menu>
                             <li><a>Women & Minorities</a></li>
                             <li><a>Ukrainian Refugees</a></li>
@@ -153,7 +153,7 @@ template.innerHTML = `
                             <li><a>United States</a></li>
                             <li><a>Cambodia</a></li>
                             <li><a>Ukraine</a></li>
-                        </menu>
+                        </menu>-->
                     </div>
                 </li>
             </ul>
