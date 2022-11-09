@@ -1,7 +1,6 @@
 :host {
     display: none;
     font-size: medium;
-    position: relative;
 }
 
 slot {
