@@ -20,7 +20,7 @@ body {
     overflow: hidden;
 }
 
-sw-header {
+hb-header {
     --theme-color-1: var(--palette-color-1);
     --theme-color-2: var(--palette-color-2);
 }
@@ -31,6 +31,6 @@ main {
     overflow: hidden scroll;
 }
 
-sw-footer {
+hb-footer {
     --theme-color: var(--palette-color-5);
 }

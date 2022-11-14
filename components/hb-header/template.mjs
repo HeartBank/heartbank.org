@@ -3,7 +3,7 @@ const origin = window.location.hostname === '127.0.0.1' ? "http://127.0.0.1:5500
 
 template.innerHTML = `
     <link rel="stylesheet" href="${origin}/components/tl-header/shadow.css">
-    <link rel="stylesheet" href="components/sw-header/shadow.css">
+    <link rel="stylesheet" href="components/hb-header/shadow.css">
     <header>
         <section>
             <a href="/"><img src="heartbank.png"></a>

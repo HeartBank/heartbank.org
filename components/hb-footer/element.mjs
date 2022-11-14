@@ -1,6 +1,6 @@
 import template from './template.mjs';
 
-class SwFooter extends HTMLElement {
+class HbFooter extends HTMLElement {
     constructor() {
         super();
         this.attachShadow({ mode: "open" });
@@ -12,4 +12,4 @@ class SwFooter extends HTMLElement {
     }
 }
 
-customElements.define("sw-footer", SwFooter);
+customElements.define("hb-footer", HbFooter);
