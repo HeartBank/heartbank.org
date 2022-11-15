@@ -1,21 +1,14 @@
+import "./hb-donors/element.mjs";
+import { ORIGIN } from "/global.mjs";
 const template = document.createElement("template");
-const origin = window.location.hostname === '127.0.0.1' ? "http://127.0.0.1:5500" : "https://thonly.org";
 
 template.innerHTML = `
-    <link rel="stylesheet" href="${origin}/components/tl-footer/shadow.css">
+    <link rel="stylesheet" href="${ORIGIN}/components/tl-footer/shadow.css">
     <link rel="stylesheet" href="components/hb-footer/shadow.css">
     <nav>
         <main>
             <section>
-                <div>
-                    <h5>Donors</h5>
-                    <ul class="donors">
-                        <li><a href="https://github.com/thonly"><img src="https://github.com/thonly.png?size=100"></a></li>
-                        <li><a href="https://github.com/panhiathao"><img src="https://github.com/panhiathao.png?size=100"></a></li>
-                        <li><a href="https://github.com/chengsieuly"><img src="https://github.com/chengsieuly.png?size=100"></a></li>
-                        <li><a href="https://github.com/lykimche"><img src="https://github.com/lykimche.png?size=100"></a></li>
-                    </ul>
-                </div>
+                <hb-donors></hb-donors>
             </section>
             <section>
                 <div>
