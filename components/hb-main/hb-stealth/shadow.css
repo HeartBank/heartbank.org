@@ -18,9 +18,10 @@ h1 {
 }
 
 button {
-    font-size: 1em;
+    font-size: large;
     padding: 5px 40px;
     cursor: pointer;
+    opacity: 0.7;
 }
 
 @media (max-width: 480px) {
@@ -29,6 +30,6 @@ button {
     }
 
     main {
-        margin-top: 10%;
+        margin-top: 7%;
     }
 }
