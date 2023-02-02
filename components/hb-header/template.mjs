@@ -6,8 +6,8 @@ template.innerHTML = `
     <link rel="stylesheet" href="components/hb-header/shadow.css">
     <header>
         <section>
-            <a href="/"><img src="heartbank.png"></a>
-            <a href="/"><h1>HeartBank<sup>®</sup> Foundation</h1></a>
+            <a href="#"><img src="heartbank.png"></a>
+            <h1>HeartBank<sup>®</sup> Foundation</h1>
         </section>
         <input id="menu-toggle" type="checkbox">
         <label class='menu-button-container' for="menu-toggle">
@@ -17,7 +17,7 @@ template.innerHTML = `
             <li>
                 <h3>Kiitos</h3>
                 <nav>
-                    <a href="#Kiitos.Earth"><button>Kiitos.Earth</button></a>
+                    <a href="https://kiitos.earth"><button>Kiitos.Earth</button></a>
                     <!--<h4>Supra & Infra Blockchains</h4>
                     <menu>
                         <li><a>Non Zero Sum</a></li>
@@ -33,7 +33,7 @@ template.innerHTML = `
             <li>
                 <h3>Me</h3>
                 <nav>
-                    <a href="#HeartBank.Me"><button>HeartBank.Me</button></a>
+                    <a href="https://heartbank.me"><button>HeartBank.Me</button></a>
                     <!--<h4>Wallet</h4>
                     <menu>
                         <li><a>Watch Videos on Udemy</a></li>
@@ -52,7 +52,7 @@ template.innerHTML = `
             <li>
                 <h3>Exchange</h3>
                 <nav>
-                    <a href="#HeartBank.Exchange"><button>HeartBank.Exchange</button></a>
+                    <a href="https://heartbank.exchange"><button>HeartBank.Exchange</button></a>
                     <!--<h4>Inclusion & naversity</h4>
                     <menu>
                         <li><a>Women & Minorities</a></li>
@@ -70,7 +70,7 @@ template.innerHTML = `
             <li>
                 <h3>Net</h3>
                 <nav>
-                    <a href="#HeartBank.Net"><button>HeartBank.Net</button></a>
+                    <a href="https://heartbank.net"><button>HeartBank.Net</button></a>
                     <!--<h4>Explorer</h4>
                     <menu>
                         <li><a>Watch Videos on Udemy</a></li>
@@ -96,7 +96,7 @@ template.innerHTML = `
             <li>
                 <h3>Domains</h3>
                 <nav>
-                    <a href="#HeartBank.Domains"><button>HeartBank.Domains</button></a>
+                    <a href="https://heartbank.domains"><button>HeartBank.Domains</button></a>
                     <!--<h4>Browser</h4>
                     <menu>
                         <li><a>Women & Minorities</a></li>
@@ -114,7 +114,7 @@ template.innerHTML = `
             <li>
                 <h3>IO</h3>
                 <nav>
-                    <a href="#HeartBank.IO"><button>HeartBank.IO</button></a>
+                    <a href="https://heartbank.io"><button>HeartBank.IO</button></a>
                     <!--<h4>333™</h4>
                     <menu>
                         <li><a>Hard Wallet</a></li>
@@ -130,7 +130,7 @@ template.innerHTML = `
             <li>
                 <h3>Cloud</h3>
                 <nav>
-                    <a href="#HeartBank.Cloud"><button>HeartBank.Cloud</button></a>
+                    <a href="https://heartbank.cloud"><button>HeartBank.Cloud</button></a>
                     <!--<h4>Inclusion & naversity</h4>
                     <menu>
                         <li><a>Women & Minorities</a></li>

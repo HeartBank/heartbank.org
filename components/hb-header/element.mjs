@@ -7,6 +7,13 @@ class HbHeader extends HTMLElement {
         this.shadowRoot.appendChild(template.content.cloneNode(true));
     }
 
+    connectedCallback() {
+        this.shadowRoot.querySelector('h1').onclick = event => {
+            const speak = new Audio('components/hb-header/heartbank.mp3');
+            speak.play();
+        }
+    }
+
     changeLanguage(event) {
         const searchParams = new URLSearchParams(window.location.search);
         searchParams.set("lang", event.target.value);

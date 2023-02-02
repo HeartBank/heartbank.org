@@ -4,7 +4,18 @@ const template = document.createElement("template");
 
 template.innerHTML = `
     <link rel="stylesheet" href="components/hb-main/shadow.css">
-    <slot></slot>
+    <header>
+        <h1>Currently in stealth development...</h1>
+        <br>
+        <a><button></button></a>
+    </header>
+    <main>
+        <tl-kiitos></tl-kiitos>
+    </main>
+    <footer>
+        <!--<tl-robot></tl-robot>-->
+    </footer>
+    
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 960 560" style="enable-background:new 0 0 960 560;" xml:space="preserve">
         <g id="lines">
             <polyline class="st0" points="838.4,0 743.5,66.3 743.5,177 720,194.3 	"/>
