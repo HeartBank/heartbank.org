@@ -34,7 +34,7 @@ class HbMain extends HTMLElement {
         this.style.display = 'block';
         if (refresh) setTimeout(() => document.body.scrollIntoView({ behavior: "smooth", block: "start", inline: "center" }), 300)
         else document.body.scrollIntoView({ behavior: "smooth", block: "start", inline: "center" });
-        this.#animate();
+        setTimeout(this.#animate.bind(this), 1000);
     }
 
     #animate() {
