@@ -21,6 +21,7 @@ template.innerHTML = `
                     <h5>Donate</h5>
                     <ul>
                         <li><a href="https://heartbank.fund/#HeartBank">HeartBank</a></li>
+                        <li><a href="https://kitty.kiitti.app/#HeartBank">Kiitti</a></li>
                         <li><a href="https://github.com/sponsors/heartbank">GitHub</a></li>
                     </ul>
                 </div>
