@@ -15,11 +15,11 @@ template.innerHTML = `
         </label>
         <div>
             <ul>
-                <li>
+                <!--<li>
                     <h3>Kiitos</h3>
                     <nav>
                         <a href="https://kiitos.earth"><button>Kiitos.Earth</button></a>
-                        <!--<h4>Supra & Infra Blockchains</h4>
+                        <h4>Supra & Infra Blockchains</h4>
                         <menu>
                             <li><a>Non Zero Sum</a></li>
                             <li><a>Decentralized Money</a></li>
@@ -28,9 +28,9 @@ template.innerHTML = `
                         <menu>
                             <li><a>General Intelligence</a></li>
                             <li><a>Aritifical Intelligence</a></li>
-                        </menu>-->
+                        </menu>
                     </nav>
-                </li>
+                </li>-->
                 <li>
                     <h3>Me</h3>
                     <nav>
