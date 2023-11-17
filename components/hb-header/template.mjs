@@ -51,9 +51,9 @@ template.innerHTML = `
                     </nav>
                 </li>
                 <li>
-                    <h3>Exchange</h3>
+                    <h3>AI</h3>
                     <nav>
-                        <a href="https://heartbank.exchange"><button>HeartBank.Exchange</button></a>
+                        <a href="https://heartbank.ai"><button>HeartBank.AI</button></a>
                         <!--<h4>Inclusion & naversity</h4>
                         <menu>
                             <li><a>Women & Minorities</a></li>
@@ -95,9 +95,9 @@ template.innerHTML = `
                     </nav>
                 </li>
                 <li>
-                    <h3>Domains</h3>
+                    <h3>Exchange</h3>
                     <nav>
-                        <a href="https://heartbank.domains"><button>HeartBank.Domains</button></a>
+                        <a href="https://heartbank.exchange"><button>HeartBank.Exchange</button></a>
                         <!--<h4>Browser</h4>
                         <menu>
                             <li><a>Women & Minorities</a></li>
