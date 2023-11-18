@@ -50,11 +50,11 @@ template.innerHTML = `
                         </menu>-->
                     </nav>
                 </li>
-                <li>
+                <!--<li>
                     <h3>AI</h3>
                     <nav>
                         <a href="https://heartbank.ai"><button>HeartBank.AI</button></a>
-                        <!--<h4>Inclusion & naversity</h4>
+                        <h4>Inclusion & naversity</h4>
                         <menu>
                             <li><a>Women & Minorities</a></li>
                             <li><a>Ukrainian Refugees</a></li>
@@ -65,9 +65,9 @@ template.innerHTML = `
                             <li><a>Cambodia</a></li>
                             <li><a>Ukraine</a></li>
                             <li><a>United States</a></li>
-                        </menu>-->
+                        </menu>
                     </nav>
-                </li>
+                </li>-->
                 <li>
                     <h3>Net</h3>
                     <nav>
