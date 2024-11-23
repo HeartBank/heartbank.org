@@ -15,24 +15,8 @@ template.innerHTML = `
         </label>
         <div>
             <ul>
-                <!--<li>
-                    <h3>Kiitos</h3>
-                    <nav>
-                        <a href="https://kiitos.earth"><button>Kiitos.Earth</button></a>
-                        <h4>Supra & Infra Blockchains</h4>
-                        <menu>
-                            <li><a>Non Zero Sum</a></li>
-                            <li><a>Decentralized Money</a></li>
-                        </menu>
-                        <h4>Enlightened Intelligence</h4>
-                        <menu>
-                            <li><a>General Intelligence</a></li>
-                            <li><a>Aritifical Intelligence</a></li>
-                        </menu>
-                    </nav>
-                </li>-->
-                <li>
-                    <h3>Me</h3>
+            <li>
+                <h3>Me</h3>
                     <nav>
                         <a href="https://heartbank.me"><button>HeartBank.Me</button></a>
                         <!--<h4>Wallet</h4>
@@ -50,24 +34,6 @@ template.innerHTML = `
                         </menu>-->
                     </nav>
                 </li>
-                <!--<li>
-                    <h3>AI</h3>
-                    <nav>
-                        <a href="https://heartbank.ai"><button>HeartBank.AI</button></a>
-                        <h4>Inclusion & naversity</h4>
-                        <menu>
-                            <li><a>Women & Minorities</a></li>
-                            <li><a>Ukrainian Refugees</a></li>
-                            <li><a>Cambodian Genocide</a></li>
-                        </menu>
-                        <h4>Campuses</h4>
-                        <menu>
-                            <li><a>Cambodia</a></li>
-                            <li><a>Ukraine</a></li>
-                            <li><a>United States</a></li>
-                        </menu>
-                    </nav>
-                </li>-->
                 <li>
                     <h3>Net</h3>
                     <nav>
@@ -94,11 +60,45 @@ template.innerHTML = `
                         </menu>-->
                     </nav>
                 </li>
+                <!--<li>
+                    <h3>Kiitos</h3>
+                    <nav>
+                        <a href="https://kiitos.earth"><button>Kiitos.Earth</button></a>
+                        <h4>Supra & Infra Blockchains</h4>
+                        <menu>
+                            <li><a>Non Zero Sum</a></li>
+                            <li><a>Decentralized Money</a></li>
+                        </menu>
+                        <h4>Enlightened Intelligence</h4>
+                        <menu>
+                            <li><a>General Intelligence</a></li>
+                            <li><a>Aritifical Intelligence</a></li>
+                        </menu>
+                    </nav>
+                </li>-->
+                <!--<li>
+                    <h3>AI</h3>
+                    <nav>
+                        <a href="https://heartbank.ai"><button>HeartBank.AI</button></a>
+                        <h4>Inclusion & naversity</h4>
+                        <menu>
+                            <li><a>Women & Minorities</a></li>
+                            <li><a>Ukrainian Refugees</a></li>
+                            <li><a>Cambodian Genocide</a></li>
+                        </menu>
+                        <h4>Campuses</h4>
+                        <menu>
+                            <li><a>Cambodia</a></li>
+                            <li><a>Ukraine</a></li>
+                            <li><a>United States</a></li>
+                        </menu>
+                    </nav>
+                </li>->
                 <li>
                     <h3>Exchange</h3>
                     <nav>
                         <a href="https://heartbank.exchange"><button>HeartBank.Exchange</button></a>
-                        <!--<h4>Browser</h4>
+                        <!-<h4>Browser</h4>
                         <menu>
                             <li><a>Women & Minorities</a></li>
                             <li><a>Ukrainian Refugees</a></li>
@@ -109,14 +109,14 @@ template.innerHTML = `
                             <li><a>Cambodia</a></li>
                             <li><a>Ukraine</a></li>
                             <li><a>United States</a></li>
-                        </menu>-->
+                        </menu>->
                     </nav>
                 </li>
                 <li>
                     <h3>IO</h3>
                     <nav>
                         <a href="https://heartbank.io"><button>HeartBank.IO</button></a>
-                        <!--<h4>333™</h4>
+                        <!-<h4>333™</h4>
                         <menu>
                             <li><a>Hard Wallet</a></li>
                             <li><a>Battery</a></li>
@@ -125,14 +125,14 @@ template.innerHTML = `
                         <menu>
                             <li><a>Quantum Computers</a></li>
                             <li><a>Kiitos Programming Language</a></li>
-                        </menu>-->
+                        </menu>->
                     </nav>
                 </li>
                 <li>
                     <h3>Cloud</h3>
                     <nav>
                         <a href="https://heartbank.cloud"><button>HeartBank.Cloud</button></a>
-                        <!--<h4>Inclusion & naversity</h4>
+                        <!-<h4>Inclusion & naversity</h4>
                         <menu>
                             <li><a>Women & Minorities</a></li>
                             <li><a>Ukrainian Refugees</a></li>
@@ -143,9 +143,9 @@ template.innerHTML = `
                             <li><a>United States</a></li>
                             <li><a>Cambodia</a></li>
                             <li><a>Ukraine</a></li>
-                        </menu>-->
+                        </menu>->
                     </nav>
-                </li>
+                </li>-->
             </ul>
         </div>
         <aside>
