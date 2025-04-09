@@ -15,8 +15,8 @@ template.innerHTML = `
         </label>
         <div>
             <ul>
-            <li>
-                <h3>Me</h3>
+                <li>
+                    <h3>Me</h3>
                     <nav>
                         <a href="https://heartbank.me"><button>HeartBank.Me</button></a>
                         <!--<h4>Wallet</h4>
@@ -35,9 +35,9 @@ template.innerHTML = `
                     </nav>
                 </li>
                 <li>
-                    <h3>Net</h3>
+                    <h3>Us</h3>
                     <nav>
-                        <a href="https://heartbank.net"><button>HeartBank.Net</button></a>
+                        <a href="https://heartbank.us"><button>HeartBank.Us</button></a>
                         <!--<h4>Explorer</h4>
                         <menu>
                             <li><a>Watch Videos on Udemy</a></li>
