@@ -38,7 +38,7 @@ SHELL = """<!doctype html><html><head><meta charset="utf-8">
      line-height:1.03;margin-bottom:26px}
   .em{display:inline-block;vertical-align:-.141em;color:#f0b429;
       margin-left:-.09em;margin-right:-.04em}
-  .reg{font-size:.34em;vertical-align:1.3em;font-weight:500;margin-left:.06em}
+  .reg{font-size:.9em;vertical-align:.38em;font-weight:500;margin-left:.08em;line-height:0}
   p{font-size:30px;line-height:1.5;color:#9b9ba5;max-width:23ch}
   .km{font-family:"Noto Sans Khmer","IBM Plex Sans",sans-serif}
   .foot{position:absolute;left:92px;bottom:56px;display:flex;align-items:center;gap:14px;

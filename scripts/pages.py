@@ -97,6 +97,7 @@ def head(lang, title, desc, canonical, noindex=False, og=None, og_alt="", altern
                 '<meta name="twitter:description" content="%s" />' % esc(desc),
                 '<meta name="twitter:image" content="%s" />' % og]
     out += ['<meta name="theme-color" content="#9a6f0b" />',
+            '<link rel="manifest" href="/assets/site.webmanifest" />',
             '<link rel="icon" type="image/png" href="/assets/favicon-96x96.png" sizes="96x96" />',
             '<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />',
             '<link rel="shortcut icon" href="/assets/favicon.ico" />',
@@ -133,9 +134,11 @@ def footer(lang):
              '<button type="button" data-theme-choice="light">%s</button><button type="button" data-theme-choice="dark">%s</button></div>'
              % (km, x["theme_aria"], tl[0], tl[1], tl[2]))
     note = ('<p class="note km">[ %s ]</p>' % t["ph"]) if lang == "km" else ""
-    return ('<footer><div class="foot-row"><p class="lede%s">%s</p>%s</div><p class="disc%s">%s</p><p class="note%s">%s</p>%s</footer>'
+    link = lambda href, text: '<a class="link" href="%s" rel="noopener">%s</a>' % (href, text)
+    w1, w2 = bb.who_parts(t, link)
+    return ('<footer><div class="foot-row"><p class="who%s">%s</p><p class="who%s">%s</p>%s</div><p class="disc%s">%s</p><p class="note%s">%s</p>%s</footer>'
             '<div class="toast" id="toast" role="status" aria-live="polite" hidden>%s</div>'
-            % (km, t["who"], theme, km, bb.disc_html(t), km, x["privacy"], note, x["toast"]))
+            % (km, w1, km, w2, theme, km, bb.disc_html(t), km, x["privacy"], note, x["toast"]))
 
 
 def landing(lang):
