@@ -1,0 +1,7 @@
+# Canonical heartbank.org URLs to prior-art-snapshot on push (one per line; # = comment).
+# vite.config.ts fails the build if a page in NAV is missing here. Extra lines (retired URLs) are allowed.
+
+https://heartbank.org/
+https://heartbank.org/km/
+https://heartbank.org/about  # retired single-page app route, still cited
+https://heartbank.org/login  # retired single-page app route, still listed by search engines
