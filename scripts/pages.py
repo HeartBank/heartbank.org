@@ -62,7 +62,12 @@ def esc(s):
 
 
 def smallmarks(html):
-    return html.replace("℠", '<span class="sm">℠</span>')
+    """Service and registered marks set small in the BODY (never in the head: a span inside <title> breaks it)."""
+    import re
+    head_, sep, body = html.partition("<body>")
+    body = body.replace("℠", '<span class="sm">℠</span>')
+    body = re.sub(r"(?<!<sup>)®", '<span class="sm">®</span>', body)  # not the wordmark's own raised mark
+    return head_ + sep + body
 
 
 def head(lang, title, desc, canonical, noindex=False, og=None, og_alt="", alternates=True):
