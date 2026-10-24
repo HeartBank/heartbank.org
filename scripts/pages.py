@@ -62,12 +62,8 @@ def esc(s):
 
 
 def smallmarks(html):
-    """Service and registered marks set small in the BODY (never in the head: a span inside <title> breaks it)."""
-    import re
-    head_, sep, body = html.partition("<body>")
-    body = body.replace("℠", '<span class="sm">℠</span>')
-    body = re.sub(r"(?<!<sup>)®", '<span class="sm">®</span>', body)  # not the wordmark's own raised mark
-    return head_ + sep + body
+    """The SERVICE mark is set small in the body; the registered mark stays at its original size."""
+    return html.replace("\u2120", '<span class="sm">\u2120</span>')
 
 
 def head(lang, title, desc, canonical, noindex=False, og=None, og_alt="", alternates=True):
@@ -139,7 +135,7 @@ def footer(lang):
     note = ('<p class="note km">[ %s ]</p>' % t["ph"]) if lang == "km" else ""
     return ('<footer><div class="foot-row"><p class="lede%s">%s</p>%s</div><p class="disc%s">%s</p><p class="note%s">%s</p>%s</footer>'
             '<div class="toast" id="toast" role="status" aria-live="polite" hidden>%s</div>'
-            % (km, t["who"], theme, km, t["disc"], km, x["privacy"], note, x["toast"]))
+            % (km, t["who"], theme, km, bb.disc_html(t), km, x["privacy"], note, x["toast"]))
 
 
 def landing(lang):
@@ -198,7 +194,7 @@ def stub(kind):
     ph = '<p class="note km">[ %s ]</p>' % km["ph"]
     html = ('<!doctype html>\n<html lang="km">\n    <head>\n        %s\n    </head>\n    <body>\n        %s\n        <main id="main">%s</main>\n'
             '        <footer><p class="disc">%s</p>%s</footer>\n    </body>\n</html>\n'
-            % (head("km", title, desc, canon, noindex=True, alternates=False), header("km"), "".join(blocks), bb.T["en"]["disc"], ph))
+            % (head("km", title, desc, canon, noindex=True, alternates=False), header("km"), "".join(blocks), bb.disc_html(bb.T["en"]), ph))
     return smallmarks(html)
 
 
