@@ -158,7 +158,7 @@ def landing(lang):
                         for kd, (n, d, h) in zip(("pair", "book", "shop"), t["else"]))
     body = ('<main id="main"><section class="intro"><div><h1 class="%s">%s</h1><p class="lede%s">%s</p>'
             '<p class="cta"><a class="btn%s" href="%s">%s</a></p><p class="note%s">%s</p></div>'
-            '<figure class="art"><div class="poster">%s<figcaption class="note%s">%s</figcaption></div></figure></section>'
+            '<div class="art"><div class="poster">%s<p class="note%s">%s</p></div></div></section>'
             '<section><h2 class="%s">%s</h2><ol class="steps">%s</ol></section>'
             '<section><h2 class="%s">%s</h2><div class="cols cols4">%s</div></section>'
             '<section><h2 class="%s">%s</h2><ul class="ben">%s</ul></section>'
@@ -167,7 +167,7 @@ def landing(lang):
             ' <span class="note">%s</span></p></section>'
             '<section><h2 class="%s">%s</h2><div class="cols">%s</div></section></main>'
             % (k, t["h1"], km, t["sub"], km, APP, t["cta"], km, t["cta_note"],
-               bb.flow_svg(4), km, t["sb_legend"],
+               bb.explainer_fragment(lang), km, t["sb_legend"],
                k, t["how_h"], steps, k, t["why_h"], why, k, t["ben_h"], ben, k, t["things_h"], things,
                k, t["is_h"], km, t["is_p"], km, ESSAY, t["is_link"], "thonly.org/research/the-gift-of-gratitude",
                k, t["else_h"], elsewhere))
