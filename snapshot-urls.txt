@@ -3,5 +3,5 @@
 
 https://heartbank.org/
 https://heartbank.org/km/
-https://heartbank.org/about  # retired single-page app route, still cited
+https://heartbank.org/about  # daily: retired single-page app route (now a forward), still cited
 https://heartbank.org/login  # retired single-page app route, still listed by search engines
