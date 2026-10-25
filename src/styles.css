@@ -14,6 +14,9 @@
    tokens.css is vendored beside it and deliberately NOT imported: it carries the layer's own --accent. */
 @import "./brand/motion.css";
 
+/* The beat's two numbers, copied from the layer's tokens.css (1.5s, no delay); tokens.css itself is not imported, so without these `.beating` has no valid animation. */
+html { --beat-duration: 1.5s; --beat-delay: 0s; }
+
 /*
  * ⛔⛔ THE ARTBOARD IS THE DESIGN SYSTEM, AND THESE ARE ITS TOKENS.
  * Every value below is lifted from ../demo.heartbank.org/board.css (the drawing of record) and
