@@ -122,7 +122,7 @@ def header(lang):
             '<div class="tools"><nav class="seg" aria-label="%s"><a href="/" hreflang="en" lang="en" data-lang="en"%s>EN</a>'
             '<a class="km" href="/km/" hreflang="km" lang="km" data-lang="km"%s>ខ្មែរ</a></nav>'
             '<button type="button" class="share" id="share" aria-label="%s">%s<span class="lbl%s">%s</span></button></div></header>'
-            % (x["home"], bb.mark(), x["lang_aria"], ' aria-current="true"' if lang == "en" else "",
+            % (x["home"], bb.mark(beating=True), x["lang_aria"], ' aria-current="true"' if lang == "en" else "",
                ' aria-current="true"' if lang == "km" else "", x["share_aria"], SHARE_ICON, km, t["share"]))
 
 
