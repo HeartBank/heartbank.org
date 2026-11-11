@@ -8,16 +8,15 @@
 @source "../km/index.html";
 @source "../login/index.html";
 @source "../404.html";
-@source "../scripts/pages.py";
 
 /* The heartbeat comes from the VENDORED brand layer and is hashed by brand.lock. ⛔ Never re-declare it here.
    tokens.css is vendored beside it and deliberately NOT imported: it carries the layer's own --accent. */
 @import "./brand/motion.css";
 
 /*
- * ⛔⛔ THE ARTBOARD IS THE DESIGN SYSTEM, AND THESE ARE ITS TOKENS.
- * Every value below is lifted from ../demo.heartbank.org/board.css (the drawing of record) and
- * `npm run tokens:check` diffs them before every build: the drawing is the source, this block is checked.
+ * ⛔⛔ THESE ARE THE SITE'S DESIGN TOKENS, AND THIS FILE IS THEIR SOURCE (since 2026-11-11).
+ * They were first lifted from the drawing (demo.heartbank.org/board.css), which is now a dated record and is
+ * no longer checked against: change a value HERE.
  * ⛔ Never style this site with Tailwind's DEFAULT scale (gray-200, text-4xl, rounded-2xl).
  */
 :root {
