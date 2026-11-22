@@ -12,7 +12,10 @@
         "prebuild": "node scripts/check-brand.mjs && node --check static/sw.js",
         "build": "vite build",
         "preview": "vite preview",
-        "check:brand": "node scripts/check-brand.mjs"
+        "check:brand": "node scripts/check-brand.mjs",
+        "khmer-strings": "node scripts/khmer-strings.mjs",
+        "khmer-apply": "node scripts/khmer-strings.mjs apply",
+        "khmer-capture": "node scripts/khmer-capture.mjs"
     },
     "devDependencies": {
         "@tailwindcss/vite": "^4.3.0",

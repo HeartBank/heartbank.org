@@ -134,3 +134,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# the Khmer review sheet (scripts/khmer-strings.mjs): for a reviewer, never in the site or the repo
+staging/
